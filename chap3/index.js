@@ -12,5 +12,5 @@ app.listen(4000, () => {
 
 
 app.get('/', (request, response) =>{
-    response.sendFile(path.resolve(__dirname, 'pages/index.html'))
+    res.sendFile(path.resolve(__dirname, 'pages/index.html'))
 })

@@ -12,7 +12,7 @@ app.listen(4000, () => {
     console.log('App listening on port 4000')
 })
 
-
+// render file index.ejs trong folder views
 app.get('/', (request, response) => {
     response.render('index')
 })
